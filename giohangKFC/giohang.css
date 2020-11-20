@@ -1,0 +1,128 @@
+body {
+    background: linear-gradient(to left, #F45E0C 0%, #EF9D75 100%);
+    margin: auto;
+    width: 40rem;
+    min-height: 20rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 25);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-top: 15px;
+
+}
+
+header {
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+    flex-basis: 10rem;
+    background: rgba(255, 73, 36, 0.83);
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    position: relative;
+    top: 4rem;
+    background: white;
+    border-radius: 59%;
+    width: 100px;
+    height: 100px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+.order {
+    padding: 1.5rem;
+    flex: 4;
+    background: #FFFFFF;
+    border-radius: 0 0 1rem 1rem;
+    padding-top: 2rem;
+
+}
+
+.order .header {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.order button {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.order .order-item {
+    display: flex;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.order .order-item button {
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 0;
+    font-size: 1rem;
+}
+
+.order .order-item button #btn-delete {
+    font-size: 1rem;
+}
+
+.order .order-item .item-name {
+    flex-basis: 5rem;
+
+}
+
+.order .order-item .item-quanlity {
+    flex-basis: 23rem;
+}
+
+input {
+    width: 30px;
+    border: none;
+    margin-left: 0.5rem;
+}
+
+.order .order-sumrary {
+    text-align: left;
+    padding: 0.2rem;
+    margin: 0.2rem 0;
+    background: #f4f4f6;
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 1rem;
+}
+
+.order .order-sumrary .money {
+    float: right;
+    margin-right: 20px;
+}
+
+p {
+    margin-left: 20px;
+}
+
+.order #btn-add {
+    margin-right: 350px;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    border: 1px solid gray;
+    width: 15rem;
+
+}
+
+.order #btn-checkout {
+    border-radius: 20px;
+    width: 590px;
+    height: 50px;
+    background: #FF6144;
+    color: #FFFFFF;
+}

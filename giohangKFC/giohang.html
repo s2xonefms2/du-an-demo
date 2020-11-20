@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gio Hang KFC</title>
+    <link rel="stylesheet" type="text/css" href="giohang.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="img/kfc.vgs.png" alt="">
+        <div class="order">
+            <h2>Your order from KFC</h2>
+            <ul class="order-items">
+                <li class="order-item">
+                    <span class="item-name">Pizz 001</span>
+                    <span class="item-quanlity">
+                        <button>-</button>
+                        <input type="number" value="1">
+                        <button>+</button>
+                    </span>
+                    <span class="item-price">
+                        <span>$7.99</span>
+                        <button class="btn-delete">x</button>
+                    </span>
+                </li>
+                <li class="order-item">
+                    <span class="item-name">Pizz 001</span>
+                    <span class="item-quanlity">
+                        <button>-</button>
+                        <input type="number" value="1">
+                        <button>+</button>
+                    </span>
+                    <span class="item-price">
+                        <span>$7.99</span>
+                        <button class="btn-delete">x</button>
+                    </span>
+                </li>
+                <li class="order-item">
+                    <span class="item-name">Pizz 001</span>
+                    <span class="item-quanlity">
+                        <button>-</button>
+                        <input type="number" value="1">
+                        <button>+</button>
+                    </span>
+                    <span class="item-price">
+                        <span>$7.99</span>
+                        <button class="btn-delete">x</button>
+                    </span>
+                </li>
+            </ul>
+            <button id="btn-add">Add Food</button>
+            <div class="order-sumrary">
+                <p>Subtotal <span id="sub-total" class="money">$15.8</span></p>
+                <p>Shipping <span id="shipping" class="money">$2</span></p>
+                <p>Total <span id="total" class="money">$1.5</span></p>
+            </div>
+            <button id="btn-checkout">Checkout</button>
+        </div>
+    </header>
+</body>
+<script src="giohang.js"></script>
+
+</html>
